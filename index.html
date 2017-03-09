@@ -10,9 +10,11 @@
     <button type="button" name="button" id="clique-moi" >Clique-moi !</button>
   </form>
   <script>
-  $("#clique-moi").click(function(){
-    alert("youpi");
-  });
+  $(document).ready(function(){  // pour charger le document. 
+    $("#clique-moi").click(function(){  // fction au clic du btn.
+      alert("youpi");
+    });
+  })
   </script>
 </body>
 </html>
